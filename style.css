@@ -1,0 +1,148 @@
+.logintitle {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    bottom: 0px;
+}
+
+#login{
+    background-color: transparent;
+    padding: 10px;
+    height: 100%;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: transparent;
+    padding: 10px;
+    height: 100%;
+    border-radius: 15px;
+    border-bottom: white 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#login:hover{
+    box-shadow: 0 5px 25px rgba(154, 213, 240, 0.6);
+    transition: all;
+    transition-duration: 1s;
+}
+
+
+#login:active{
+    box-shadow: 0 5px 15px rgba(154, 213, 240, 0.6);
+    transition: all;
+    transition-duration: 1s;
+}
+
+#login::placeholder{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#password{
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 10px;
+    height: 100%;
+    width: 85%;
+    border-radius: 15px;
+    border-bottom: white 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#password:hover{
+    box-shadow: 0 5px 25px rgba(154, 213, 240, 0.6);
+    transition: all;
+    transition-duration: 1s;
+}
+
+#password::placeholder{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#botton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 1px;
+    height: 15%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    border-bottom: white 2px solid;
+    border-top: none;
+    border-right: white;
+    border-left: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#botton:hover{
+    box-shadow: 0 5px 25px rgba(154, 213, 240, 0.6);
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+body {
+    background: linear-gradient(#141e30,#243b55);
+    background-repeat: no-repeat;
+
+}
+html {
+    height: 100%;
+}
+
+.loginblock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+}
+
+.logox{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
